@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #111, #222);
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+/* Branding */
+.branding {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px; 
+}
+.branding img {
+    width: 300px;
+    margin-bottom: -12px;
+}
+
+.branding img:hover {
+    transform: scale(1.05);
+}
+
+
+.branding h1 {
+    margin: 0;         
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.branding span {
+    color: #ff0000;
+}
+
+.branding p {
+    margin-top: 4px;
+    color: #ccc;
+}
+
+
+/* Search Box */
+.search-box {
+    margin-top: auto;
+    margin-bottom: 120px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    width: 360px;
+    padding: 14px 18px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 14px 28px;
+    border-radius: 50px;
+    border: none;
+    background: #ff0000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #cc0000;
+}
+
+/* Results */
+#results {
+    width: 80%;
+    margin-bottom: 40px;
+}
